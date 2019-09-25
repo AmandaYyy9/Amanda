@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <!-- styles -->
       <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- javascript -->
+  <script src="main.js" type="text/javascript"></script>
+
 
 </head>
 
 <body>
     Hello world!
-    <header>
+  <header>
 	    <h1>My To Do Lists</h1>
 	    <nav>
 	        <a href="index.html">main</a> -
@@ -18,10 +21,21 @@
 	    </nav>
 	</header>
 
-    <div id="todo-lists">
-    <div class="list">
-       Groceries
+
     </div>
+    <div id="todo-lists">
+     <div class="list">
+        <h2 class="list-title">Groceries</h2>
+        <ol>
+            <li>Eggs</li>
+            <li>Milk</li>
+            <li>Cereal</li>
+        </ol>
+
+    </div>
+    <input type="text"></input>
+    <button onclick="addNewList()">Add New List</button>
+
 
     <div class="list">
        Homework
@@ -30,7 +44,10 @@
     <div class="list">
        Random Errands
     </div>
-</div>
+    <button>Add New List</button>
+     </div>
+
+
 
 </body>
 
